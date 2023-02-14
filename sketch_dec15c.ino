@@ -1,15 +1,15 @@
 #include <SoftwareSerial.h>
-const int rx_prog = 2;    //программный rx для подключения SIM800L
-const int tx_prog = 3;    //программный tx для подключения SIM800L
-SoftwareSerial SIM800(rx_prog, tx_prog);   //программные RX, TX для связи с модулем SIM800L
-const int led_2 = 13;          //светодиод для индикации сигнализации
-const int a1 = 15;    //линия для подключения датчика
-const int a2 = 16;    //линия для подключения датчика
-const int a3 = 17;    //линия для подключения датчика
-const int a4 = 18;      //линия для подключения датчика
-const int a5 = 19;  //линия для подключения датчика
-const int speaker = 8;        //подключение сирены
-const int set_220 = 7;        //контакт для определения наличия питания в сети
+const int rx_prog = 2;    
+const int tx_prog = 3;    
+SoftwareSerial SIM800(rx_prog, tx_prog);   
+const int led_2 = 13;          
+const int a1 = 15;    
+const int a2 = 16;    
+const int a3 = 17;    
+const int a4 = 18;      
+const int a5 = 19;  
+const int speaker = 8;        
+const int set_220 = 7;        
 
 String phon = "+79221236906";      //номер на который будет выполняться звонок
 String phones = "+79221236906";  //несколько номеров администраторов, для управления по СМС
